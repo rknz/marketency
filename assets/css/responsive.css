@@ -37,8 +37,7 @@
 =======================================================*/
 @media (max-width:992px) {
     .backTop i {
-        font-size: 2rem;
-        color: red;
+        font-size: 1.5rem;
     }
 
     .menu_wrapper {
@@ -50,7 +49,7 @@
     }
 
     .menu_wrapper .menu_area .navbar-toggler {
-        color: orangered;
+        color: #fd3d1b;
         outline: 0 !important;
     }
 
@@ -99,7 +98,14 @@
     .about_details {
         padding: 5rem 0;
     }
-
+    #About .about_section .about_img img {
+        border-radius: 0 !important;
+        overflow: hidden;
+        -webkit-border-radius: 0 !important;
+        -moz-border-radius: 0 !important;
+        -ms-border-radius: 0 !important;
+        -o-border-radius: 0 !important;
+}
     /* Service section */
     .service_wrapper {
         padding: 3rem 0;

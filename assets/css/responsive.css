@@ -1,0 +1,452 @@
+/* ===================================
+    About
+====================================== */
+/*
+    Theme Name: Marketency
+    Theme URI: www.rukonuzzaman.dev/theme/marketency
+    Author: RowCoder
+    Author URI: www.rukonuzzaman.dev
+    Description: One Page Multipurpose HTML Templete
+    Tags: one page, multipurpose, parallax, creative, html5,corporete
+*/
+/* Desktop device */
+@media (min-width: 1600px) {
+    /* All Section Common Padding */
+    #About,
+    #Project,
+    #FAQ,
+    #Services,
+    #PricePlan,
+    .counter_section,
+    .prosess_blog,
+    #Blog,
+    .testimonial_section,
+    #Team,
+    #Contact,
+    .offer_section,
+    .client_section,
+    .footer_section,
+    .hero_content,
+    .error_section {
+        padding: 3rem 0 !important;
+    }
+}
+
+/* ===================================================
+        Tablet device 
+=======================================================*/
+@media (max-width:992px) {
+    .backTop i {
+        font-size: 2rem;
+        color: red;
+    }
+
+    .menu_wrapper {
+        background: #fff;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .menu_wrapper .menu_area .navbar-toggler {
+        color: orangered;
+        outline: 0 !important;
+    }
+
+    #About .about_section .about_content a,
+    .menu_wrapper .menu_area .menu_btn {
+        color: #000 !important;
+        text-align: center;
+        padding: 10px 3rem;
+    }
+
+    .menu_wrapper .menu_area .navbar-toggler:focus {
+        outline: 0 !important;
+    }
+
+    .menu_wrapper .menu_area .menu_ul li a {
+        text-align: center;
+        color: #000;
+    }
+
+    .menu_wrapper .menu_area .menu_ul li a::after {
+        background: none;
+    }
+
+    /* Hero Section Start */
+    .hero_section h1 span {
+        font-size: 3.2rem;
+    }
+
+    .hero_section p {
+        font-size: 1.5rem;
+    }
+
+    .hero_section a {
+        padding: 10px 30px;
+        font-size: 1.5rem;
+        margin-top: 3.5rem;
+        color: #fff;
+    }
+
+    .hero_section h3 {
+        font-size: 18px;
+        padding: 15px 0;
+    }
+
+    /* About section */
+    .about_details {
+        padding: 5rem 0;
+    }
+
+    /* Service section */
+    .service_wrapper {
+        padding: 3rem 0;
+    }
+
+    /* Project section */
+    .project_section .project_menu .project_ul {
+        padding: 2.5rem 0;
+    }
+
+    .project_section.project_menu {
+        padding-top: 2rem;
+    }
+    /* FAQ Sction */
+    #FAQ .faq_section {
+        margin-bottom:2rem;
+    }
+    .faq_content {
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+    #FAQ .faq_section .faq_content p {
+        padding: 1rem 0;
+    }
+
+    /* Pricing plan */
+    .pricing_section .plan_wrapper .simple_plan,
+    .pricing_section .plan_wrapper .normal_plan,
+    .pricing_section .plan_wrapper .enterprise_plan,
+    .pricing_section .plan_wrapper .pro_plan {
+        max-width: 20rem;
+        margin: 0 auto;
+        margin-bottom: 1.5rem;
+    }
+
+    .pricing_section .common_heading p {
+        margin-bottom: 2.5rem;
+    }
+
+    /* Counter Section */
+    #Counter .counter_section {
+        padding: 3rem 0;
+    }
+
+    #Counter .counter_section .counter {
+        padding: 2.5rem 0;
+    }
+
+    #Counter .counter_section .counter h3 {
+        font-size: 18px;
+    }
+
+    #Counter .counter_section .counter i,
+    #Counter .counter_section .counter span {
+        font-size: 2rem
+    }
+
+    /* Prossessing */
+    .process_section .prosess {
+        margin: 13rem 3rem 3rem;
+    }
+
+    .prosess_blog {
+        padding: 0 10rem;
+    }
+
+    .process_section .pros_2 span::before {
+        content: '02';
+        top: 5rem;
+    }
+
+    .process_section .prosess .center_process {
+        top: -5rem;
+        font-family: "Poppins", sans-serif;
+        position: absolute;
+        content: '';
+    }
+
+    /* Blog Section */
+    #Blog .blog_section .common_heading p {
+        margin-bottom: 2rem !important;
+    }
+
+    .card.single_blog {
+        margin: 2rem !important;
+    }
+
+    /* Offer secton */
+    .offer {
+        padding: 2rem;
+    }
+
+    /* Client Section */
+    #ClientBrand {
+        padding: 5.2rem 0;
+    }
+
+    /* Testimonial */
+    .team_section .common_heading p {
+        padding: 0 5rem;
+    }
+
+    #Testimonial .qute_box::before {
+        display: none !important;
+        content: '';
+    }
+
+    #Testimonial .qute_box::after {
+        display: none !important;
+        content: '';
+    }
+
+    .col-lg-3.col-md-4.team_card {
+        margin: 2rem;
+    }
+
+    /* Footer */
+    .footer_box {
+        padding: 3rem 2rem;
+        text-align: center;
+    }
+    #Footer .footer_section .footer_box ul {
+        width: 100%;
+        padding: 0 !important;
+    }
+    address {
+        margin-bottom: 2rem;
+    }
+}
+
+/* ===================================================
+        Mobile Devices 
+=======================================================*/
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .animated {
+        /*CSS transitions*/
+        -o-transition-property: none !important;
+        -moz-transition-property: none !important;
+        -ms-transition-property: none !important;
+        -webkit-transition-property: none !important;
+        transition-property: none !important;
+        /*CSS transforms*/
+        -o-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+        /*CSS animations*/
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+    }
+}
+@media (max-width:768px) {
+
+    #About,
+    #Project,
+    #FAQ,
+    #Services,
+    #PricePlan,
+    .counter_section,
+    .prosess_blog,
+    #Blog,
+    .testimonial_section,
+    #Team,
+    .contact.section,
+    .offer_section,
+    .client_section,
+    .footer_section,
+    .hero_content,
+    .error_section  {
+        padding: 0 2rem !important;
+    }
+    /* Service Section */
+    #Services{
+        padding-top: 3rem !important;
+    }
+    /* hero section */
+    .hero_section {
+        padding: 10rem 0;
+    }
+    /* Team Section */
+    .team_section {
+        padding: 2rem 5rem !important;
+    }
+    .team_section .team_card {
+        padding: 3rem 7rem !important;
+    }
+    .team_section .team_card h2 {
+        font-size: 27px;
+        padding-top: 10px;
+        line-height: 25px;
+    }
+    .team_section .team_card span {
+        font-size: 16px;
+    }
+
+    /* Testimonial Section */
+    .testimonial_section {
+        padding: 2rem 0 !important;
+    }
+    .team_section .team_card {
+        padding: 0rem !important;
+    }
+
+    /* Singel Blog */
+
+    /* Prosessing Section*/
+    .process_section .prosess span {
+        width: 4rem;
+        height: 4rem;
+        line-height: 4rem;
+    }
+    .process_section .prosess .center_process,
+    .process_section .prosess .end_process,
+    .process_section .prosess .start_process {
+        top: -7rem;
+    }
+    .process_section .prosess {
+        margin: 10rem 2rem 5rem;
+    }
+    .process_section .prosess span i {
+        font-size: 1.5rem;
+    }
+
+    /* Contact Section */
+    .contact_section .common_heading {
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+    }
+}
+
+/* ===================================================
+       Small/Mobile Devices 
+=======================================================*/
+@media (max-width:576px) {
+
+    /* All Section Common Padding */
+    #About,
+    #Project,
+    #FAQ,
+    #Services,
+    #PricePlan,
+    .counter_section,
+    .prosess_blog,
+    #Blog,
+    .testimonial_section,
+    #Team,
+    .contact_section,
+    .offer_section,
+    .client_section,
+    .footer_section,
+    .hero_content,
+    .error_section {
+        padding: 0 2rem !important;
+    }
+    /* Services Section*/
+    #Services{
+        padding-top: 3rem !important;
+    }
+    /* Testimonial Section */
+    .testimonial_section {
+        padding: 3rem 0 !important;
+    }
+    #Testimonial .qute_box {
+        width: 100%;
+        min-width: 100%;
+    }
+    /* Team Section */
+    .team_section {
+        padding: 5rem 1rem !important;
+    }
+    .team_section .team_card {
+        text-align: end;
+        padding: 0rem 2rem!important;
+    }
+    .team_section .common_heading p {
+        padding: 0 !important;
+    }
+    /* Contact Section */
+    .contact_section {
+        padding-top: 0 !important;
+    }
+
+    .location,
+    .contact,
+    .social {
+        padding: 2rem 0 !important;
+    }
+
+    /* Footer Section */
+    #Footer .footer_section {
+        padding: 4rem 3rem !important;
+        position: relative;
+        z-index: 1;
+    }
+
+    .contact_right {
+        padding: 2rem 0;
+    }
+
+    .contact_right p,
+    .contact_right a {
+        font-size: 12px;
+    }
+
+    .contact_right span {
+        font-size: 10px;
+        margin-top: 2px;
+    }
+
+    /* 404 PAge */
+    #ERROR .error_section .error_text h2 {
+        font-size: 1rem;
+    }
+
+    #ERROR .error_section .error_text a {
+        padding: 5px 10px;
+        font-size: .6rem !important;
+    }
+}
+/* Small Problems */
+@media (max-width:470px){
+    #FAQ .faq_section .common_heading {
+        padding: 0 3rem !important;
+        padding-bottom: 3rem !important;
+    }
+    #FAQ .faq_section .common_heading h2 span {
+        display: block;
+    }
+    #FAQ .faq_section .common_heading h2::before {
+        bottom: 29px;
+    }
+}
+
+/* Very Small Device Problems */
+@media (max-width:350px){
+    #FAQ .faq_section .common_heading h2::before {
+        bottom: 49px;
+    }
+    /* Prosses section */
+    .process_section .prosess .center_process,
+    .process_section .prosess .end_process,
+    .process_section .prosess .start_process {
+        top: -7rem;
+    }
+}
